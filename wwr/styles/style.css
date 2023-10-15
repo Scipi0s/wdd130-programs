@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi&family=Ubuntu:wght@300&display=swap');
 #content{
     max-width: 1600px;
     margin: 0 auto;
+    font-size: 22px;
 }
 
 nav a{
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero_msg h4{
@@ -21,6 +24,10 @@ main section{
     text-align: center;
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
 #background{
     height: 725px;
     background-color: #404e4d;
@@ -28,10 +35,17 @@ main section{
 
 body{
     background-color: #404e4d;
+    font-family: 'Ubuntu', 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header{
 background-color:rgba(20,30,13, .7);
+}
+
+h2{
+    margin: 0;
 }
 
 nav a:hover{
@@ -43,6 +57,10 @@ background-color: #404e4d;
     background-color: #404e4d;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -52,19 +70,26 @@ background-color: #404e4d;
 
 .msg{
     background-color: #404e4d;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
     color: white;
+    font-family: 'Pridi', 'Arial', sans-serif;
 }
 
 .msg p{
     color: white;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 footer{
 background-color: #404e4d;
 color: white;
+padding: 25px 50px;
+margin-top: 200px;
 }
 
 footer p{
@@ -84,22 +109,43 @@ footer p a:hover{
     text-decoration: underline;
 }
 
+footer .social img{
+    padding-top: 15px;
+}
+
 .home-title{
     color: white;
+    font-family: 'Pridi', 'Arial', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
     color: white;
+    
 }
 
 .logo{
     width: 80px;
 }
 
+#logo-link{
+    padding-top: 5px;
+}
+
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
     width: 80px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin-top: 200px;
+}
+
+.card-img{
+    border: 10px solid #9297c4;
 }
