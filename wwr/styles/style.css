@@ -43,7 +43,7 @@ body{
 }
 
 header{
-    background-color:rgba(20,30,13, .7);
+    background-color:rgba(188,108,37, .7);
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -98,7 +98,7 @@ background-color: #404e4d;
 }
 
 footer{
-    background-color: #404e4d;
+    background-color: #bc6c25;
     color: white;
     padding: 25px 50px;
     margin-top: 200px;
@@ -140,13 +140,13 @@ footer .social img{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-h4{
+h1, h4{
     color: white;
     
 }
 
 .logo{
-    width: 80px;
+    width: 100%;
 }
 
 #logo-link{
@@ -221,6 +221,28 @@ h4{
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
+/* FAQ css starts here */
+
+.question-block{
+    text-align: left;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.question-block h1, .question-block h2, .question-block h3, .question-block h4, .question-block h5, .question-block h6{
+    font-family: 'Pridi', 'Arial', sans-serif;
+    font-size: 1em;
+    margin-top: 10px;  
+}
+
+.question-block p{
+    font-family: 'Ubuntu', 'Helvetica', sans-serif;
+    font-size: 0.8em;   
+}
+
+/* FAQ css ends here */
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
