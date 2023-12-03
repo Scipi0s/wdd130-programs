@@ -89,17 +89,15 @@ background-color: #006EB6;
 
 
 .msg{
-    background-color: #404e4d;
+    background-color: #006EB6 ;
     line-height: 1.5em;
     padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 1/11;
 }
 
 .msg h2{
     color: #f2f2f2;
-    font-family: 'Pridi', 'Arial', sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
 }
 
 .msg p{
@@ -151,7 +149,7 @@ footer .social img{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-h1, h4, p{
+h1, h2, h4, p{
     color: #f2f2f2;
     
 }
@@ -211,7 +209,38 @@ h1, h4, p{
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+/* Job Descroption css starts here */
 
+.jobs-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#title{
+    grid-column: 1/11;
+    text-align: center;
+}
+
+.safety-lead{
+    grid-column: 1/6;
+    grid-row: 2/3;
+
+}
+
+.safety-student{
+    grid-column: 1/6;
+    grid-row: 3/4;
+}
+
+.safety-hazmat{
+    grid-column: 1/6;
+    grid-row: 4/5;
+}
+
+#banner-img{
+    grid-column: 6/11;
+    grid-row: 2/7;
+}
 
 /* FAQ css starts here (copied from wwr css as a starter, will change later) */
 
@@ -233,7 +262,6 @@ h1, h4, p{
     font-size: 0.8em;   
 }
 
-/* Contact Us css begins here */
 
 
 
