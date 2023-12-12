@@ -98,7 +98,7 @@ background-color: #006EB6;
 .msg h2{
     color: #f2f2f2;
     font-family: Roboto, Helvetica, sans-serif;
-    justify-content: space-around;
+    margin: 50px;
 }
 
 .msg p{
